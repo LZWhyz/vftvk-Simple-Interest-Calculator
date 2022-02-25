@@ -5,7 +5,9 @@ h1{color:grey;font-family: Verdana}
     width:500px;
     padding:20px;
     border-radius:25px;
+    text-justify: auto;
     align:center;
+    margin: 0 auto; /*align center didn't work in Firefox */
 }
 
 
