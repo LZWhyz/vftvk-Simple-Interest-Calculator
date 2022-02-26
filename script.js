@@ -14,10 +14,10 @@ and calculates the amount to be receivved in a specfic year */
     var interest = principal * years * rate/100;
     var year = new Date().getFullYear()+parseInt(years);
     //the innerhtml text displays the calculated reults
-    document.getElementById("result").innerHTML = "\<br><br>\If you deposit $<b>" +
-    principal + "</b>, <br>at an interest rate of <b>" + rate +
-     "</b>%. \<br>\You will receive an amount of $<b>" + 
-    interest + "</b>, <br>in the year <b>" + year + "</b><br>"
+    document.getElementById("result").innerHTML = "\<br><br>\If you deposit $<mark>" +
+    principal + "</mark>, <br>at an interest rate of <mark>" + rate +
+     "</mark>%. \<br>\You will receive an amount of $<mark>" + 
+    interest + "</mark>, <br>in the year <mark>" + year + "</mark><br>"
 }
 
 function updateRate()

@@ -1,13 +1,16 @@
 body {background-color:black;font-family: arial;color:white}
 h1{color:grey;font-family: Verdana}
+label{padding-right: 10px; }
 .maindiv {background-color: white;
     color:black;
     width:500px;
     padding:20px;
     border-radius:25px;
-    text-justify: auto;
-    align:center;
-    margin: 0 auto; /*align center didn't work in Firefox */
+    margin: 0 auto; /*align center not recognized*/
+}
+.subdiv {
+    padding-left: 30px;
+    
 }
 
 
